@@ -1,0 +1,35 @@
+debug: true
+#
+# 数据库设置，选择你需要使用的数据储存方式，sqlite,mysql
+# 默认: sqlite
+data_storage:
+  use_type: mysql
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    database: 'server_world'
+    username: 'root'
+    password: 'liao17303069590'
+    params: '?autoReconnect=true&useSSL=false'
+  hikari_settings:
+    maximum_pool_size: 10
+    minimum_idle: 10
+    maximum_lifetime: 1800000
+    keepalive_time: 0
+    connection_timeout: 5000
+Config:
+  # 离线多久的世界在启动时不会被主动加载
+  worldLoad: 24h
+  # 玩家离线多久卸载世界(卸载条件需要该世界无任何玩家)
+  offLine: 24h # 未实现
+  # 是否启用集群模式
+  startCluster: false
+  # 集群识别ID
+  clusterId: main
+  # 设置为集群主服? 当未启用集群模式时，该配置不起作用
+  isMailServer: true
+# 预生成
+Pre:
+  isStart: true
+  number: 10
+

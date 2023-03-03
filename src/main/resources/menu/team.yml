@@ -1,0 +1,28 @@
+title: '成员列表'
+layout:
+  - 'b       a'
+  - '    1    '
+  - '         '
+Icons:
+  1:
+    Type: teams
+    display:
+      mats: head
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  a:
+    Type: add
+    display:
+      mats: BOOK
+      name: '&7添加玩家'
+      lore:
+        - ''
+        - ' &7将玩家添加至你的领域'
+        - ' &7目标玩家可以自由进入你的领域'
+        - ''
+        - '&8[&B左键_点击&8] &7# 添加玩家'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  b:
+    Type: back
+    display:
+      mats: barrier
+      name: '&b返回'

@@ -1,0 +1,129 @@
+title: '管理设置'
+layout:
+  - '#########'
+  - ' abcdefg '
+  - '###1#2###'
+Icons:
+  1:
+    Type: access
+    display:
+      mats: BOOK
+      name: '&a领域开放状态'
+      lore:
+        - ''
+        - ' &7当前状态: &f{access}'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  2:
+    Type: team
+    display:
+      mats: BOOK
+      name: '&e成员管理'
+      lore:
+        - ''
+        - ' &7主人: &f{owner}'
+        - ' &7当前成员: &f{team}'
+        - ''
+        - ' &7这里可以设置成员在你领域的各种权限'
+        - ''
+        - '&8[&B左键_点击&8] &7# 管理成员'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+
+  a:
+    Type: breaking
+    display:
+      mats: BOOK
+      name: '&e是否允许破坏方块'
+      lore:
+        - ''
+        - ' &7当前状态: &f{breaking}'
+        - ''
+        - ' &7允许或静止破坏方块'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  b:
+    Type: placing
+    display:
+      mats: BOOK
+      name: '&e是否允许放置方块'
+      lore:
+        - ''
+        - ' &7当前状态: &f{placing}'
+        - ''
+        - ' &7允许或静止放置方块'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+
+  c:
+    Type: pickup
+    display:
+      mats: BOOK
+      name: '&e是否允许拾起物品'
+      lore:
+        - ''
+        - ' &7当前状态: &f{pickup}'
+        - ''
+        - ' &7允许或静止拾起物品'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  d:
+    Type: drop
+    display:
+      mats: BOOK
+      name: '&e是否允许丢弃物品'
+      lore:
+        - ''
+        - ' &7当前状态: &f{drop}'
+        - ''
+        - ' &7允许或静止丢弃物品'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  e:
+    Type: damage
+    display:
+      mats: BOOK
+      name: '&e是否允许攻击生物'
+      lore:
+        - ''
+        - ' &7当前状态: &f{damage}'
+        - ''
+        - ' &7允许或静止攻击生物品'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  f:
+    Type: useBucket
+    display:
+      mats: BOOK
+      name: '&e桶使用'
+      lore:
+        - ''
+        - ' &7当前状态: &f{useBucket}'
+        - ''
+        - ' &7开启或静止桶的使用'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+  g:
+    Type: useContainer
+    display:
+      mats: BOOK
+      name: '&e容器使用'
+      lore:
+        - ''
+        - ' &7当前状态: &f{useContainer}'
+        - ''
+        - ' &7开启或静止玩家使用领域内的所有容器'
+        - ''
+        - '&8[&B左键_点击&8] &7# 切换'
+      sound: BLOCK_NOTE_BLOCK_BIT-1-1
+
+  '#':
+    display:
+      mats: BLACK_STAINED_GLASS_PANE
+      name: '&b&l 挡板'
